@@ -23,7 +23,7 @@
     <text name="CP_error_giants_unloader_not_available" text="Разгружающий Giants не доступен."/>
     <text name="CP_error_fieldUnloadPosition_too_far_away_from_field" text="Положение выгрузки слишком далеко от поля."/>
     <text name="CP_error_vehicle_too_far_away_from_field" text="Транспортное средство слишком далеко от поля, чтобы стартовать."/>
-    <text name="CP_error_no_bunkerSilo_found" text="Силосную яму не найдено."/>
+    <text name="CP_error_no_bunkerSilo_found" text="Силосная яма не найдена."/>
     <text name="CP_error_no_heap_found" text="Не найдена куча."/>
     <text name="CP_error_no_unload_trigger_found" text="Точка разгрузки не найдена."/>
     <text name="CP_error_unload_target_to_far_away_from_silo" text="Выбранная точка разгрузки слишком далеко от силосной ямы."/>
@@ -113,10 +113,10 @@
     <!---->
     <text name="CP_ai_messageErrorIsFull" text="ИИ-работник %s неожиданно прекратил работу - заполнен бункер!"/>
     <text name="CP_ai_messageError" text="ИИ-работник %s неожиданно прекратил работу - оставил курс!"/>
-    <text name="CP_ai_messageErrorWrongBaleWrapType" text="ИИ-работник %s неожиданно прекратил работу - не найдено выбранного типа тюков!"/>
-    <text name="CP_ai_messageErrorNoPathFound" text="ИИ-работник %s неожиданно прекратил работу - не найдено пути!"/>
+    <text name="CP_ai_messageErrorWrongBaleWrapType" text="ИИ-работник %s неожиданно прекратил работу - тюков выбранного типа не найдено!"/>
+    <text name="CP_ai_messageErrorNoPathFound" text="ИИ-работник %s неожиданно прекратил работу - не найден путь!"/>
     <text name="CP_ai_messageErrorGroundUnloadNotSupported" text="ИИ-работник %s неожиданно прекратил работу - разгрузка на поле невозможна!"/>
-    <text name="CP_ai_messageErrorCutterNotSupported" text="ИИ-работник %s неожиданно прекратил работу - присоединение жатки не возможно!"/>
+    <text name="CP_ai_messageErrorCutterNotSupported" text="ИИ-работник %s неожиданно прекратил работу - присоединение жатки невозможно!"/>
     <text name="CP_ai_messageErrorAutomaticCutterAttachNotActive" text="ИИ-работник %s неожиданно прекратил работу - автоприсоединение жатки отключено!"/>
     <text name="CP_ai_messageErrorWrongMissionFruitType" text="ИИ-работник %s неожиданно прекратил работу - неправильный fill_type для выбранной миссии!"/>
     <!---->
@@ -156,6 +156,7 @@
     <!--Vehicle settings-->
     <!---->
     <text name="CP_vehicle_setting_title" text="Настройки техники CoursePlay"/>
+    <text name="CP_vehicle_setting_subTitle_vehicle" text="Настройки транспорта"/>
     <text name="CP_vehicle_setting_subTitle_basic" text="Основные настройки"/>
     <text name="CP_vehicle_setting_subTitle_implement" text="Настройки инструментов"/>
     <text name="CP_vehicle_setting_subTitle_combine" text="Настройки комбайна"/>
@@ -205,17 +206,17 @@
     <text name="CP_vehicle_setting_fullThreshold_title" text="Разгружаться при:"/>
     <text name="CP_vehicle_setting_fullThreshold_tooltip" text="Если уровень заполнения разгрузчика уже превышает это значение, то он не будет ждать следующего вызова комбайна, а сразу поедет разгружаться."/>
     <text name="CP_vehicle_setting_useAdditiveFillUnit_title" text="Контроль силосной добавки."/>
-    <text name="CP_vehicle_setting_useAdditiveFillUnit_tooltip" text="Если активная и силовая добавка закончилась, водитель остановится."/>
+    <text name="CP_vehicle_setting_useAdditiveFillUnit_tooltip" text="Если активная и силосная добавка закончилась, водитель остановится."/>
     <text name="CP_vehicle_setting_symmetricLaneChange_title" text="Симметричная смена полосы движения"/>
     <text name="CP_vehicle_setting_symmetricLaneChange_tooltip" text="Симметричная смена полосы движения"/>
     <text name="CP_vehicle_setting_convoyDistance_title" text="Дистанция следования"/>
     <text name="CP_vehicle_setting_convoyDistance_tooltip" text="Расстояние между техникой при работе нескольких орудий. Значение: 40 - 400"/>
     <text name="CP_vehicle_setting_debugActive_title" text="Отладка техники"/>
     <text name="CP_vehicle_setting_debugActive_tooltip" text="Вкл/выкл отладку текущей техники."/>
-    <text name="CP_vehicle_setting_refillOnTheField_title" text="Refill tool"/>
-    <text name="CP_vehicle_setting_refillOnTheField_tooltip" text="Refill tool on the field"/>
-    <text name="CP_vehicle_setting_refillOnTheField_waiting" text="Waiting"/>
-    <text name="CP_vehicle_setting_refillOnTheField_active" text="Active"/>
+    <text name="CP_vehicle_setting_refillOnTheField_title" text="Заправка инструмента"/>
+    <text name="CP_vehicle_setting_refillOnTheField_tooltip" text="Заправка инструмента на поле"/>
+    <text name="CP_vehicle_setting_refillOnTheField_waiting" text="Ожидать"/>
+    <text name="CP_vehicle_setting_refillOnTheField_active" text="Активировать"/>
     <!---->
     <!--Vehicle bunker silo settings-->
     <!---->
@@ -271,6 +272,8 @@
     <!---->
     <text name="CP_vehicle_courseGeneratorSetting_title" text="Настройки генератора курсов (%s)"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_basic" text="основные"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_vineField" text="Настройки виноградного поля"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_fieldwork" text="Настройки полевых работ"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_headland" text="поворотная полоса"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_center" text="метод движения"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_island" text="Настройки работ вокруг островков"/>
@@ -367,8 +370,8 @@
     <text name="CP_global_setting_autoRepair_always" text="поддерживать в рабочем состоянии"/>
     <text name="CP_global_setting_fuelThreshold_title" text="Порог топлива"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="Водитель будет отпущен, если уровень топлива меньше порога."/>
-    <text name="CP_global_setting_waitForRefueling_title" text="Waits for refueling"/>
-    <text name="CP_global_setting_waitForRefueling_tooltip" text="Vehicle waits until it is refueled."/>
+    <text name="CP_global_setting_waitForRefueling_title" text="Ожидает дозаправки"/>
+    <text name="CP_global_setting_waitForRefueling_tooltip" text="Транспорт ждет, пока его заправят."/>
     <text name="CP_global_setting_brokenThreshold_title" text="Порог поломок"/>
     <text name="CP_global_setting_brokenThreshold_tooltip" text="Водитель будет отпущен, если транспортное средство или оборудование будут изношенным более порога. 100% это ВЫКЛ."/>
     <text name="CP_global_setting_stopThreshingDuringRain_title" text="Останавливать комбайны, пока идёт дождь"/>
@@ -446,7 +449,7 @@
     <!--Course editor-->
     <!---->
     <text name="CP_editor_course_title" text="Редактор курсов"/>
-    <text name="CP_editor_change_lane_offset" text="Change selected lane offset(%s)"/>
+    <text name="CP_editor_change_lane_offset" text="Изменить смещение выбранной полосы(%s)"/>
     <text name="CP_editor_delete_title" text="Удалить путевую точку"/>
     <text name="CP_editor_delete_primary_text" text="Удаляет выбранную путевую точку"/>
     <text name="CP_editor_delete_secondary_text" text="Продолжает удаление близлежащих ПТ"/>
@@ -501,6 +504,7 @@
     <!---->
     <!--Custom field manager-->
     <!---->
+    <text name="CP_customFieldManager_hotspotName" text="Пользовательское поле"/>
     <text name="CP_customFieldManager_confirm_save" text="Вы хотите сохранить записанный курс как пользовательское поле %s?"/>
     <text name="CP_customFieldManager_confirm_delete" text="Вы хотите удалить пользовательское поле %s?"/>
     <text name="CP_customFieldManager_delete" text="Удалить пользовательское поле"/>
@@ -516,10 +520,14 @@
     <text name="CP_controllerGui_pauseRecording" text="Приостановить запись пользовательского поля."/>
     <text name="CP_controllerGui_unpauseRecording" text="Продолжить запись пользовательского поля."/>
     <!---->
+    <!--CP ingame menu-->
+    <!---->
+    <text name="CP_ingameMenu_map_title" text="Map"/>
+    <!---->
     <!--Help menu-->
     <!---->
     <text name="CP_help_title" text="CoursePlay"/>
-    <text name="CP_help_subTitle" text="A Modification for Farming Simulator 22 "/>
+    <text name="CP_help_subTitle" text="Модификация для Farming Simulator 25 "/>
     <text name="CP_help_page_blank" text=""/>
     <text name="CP_help_page_General_title" text="Общая информация"/>
     <text name="CP_help_page_GeneralBase_text" text="
@@ -533,7 +541,7 @@ CoursePlay позволяет вам генерировать полевые к�
 Наконец, CP имеет интерфейс для AutoDrive, который позволяет заполнять сеялку в ближайшем бункере или выгружать фуражный прицеп и так далее.
 С версии 7.2.1.0 и выше также можно использовать разгрузочную машину для создания куч рядом с полем.
 
-Для получения дополнительной информации, пожалуйста, посетите наш GitHub: https://github.com/coursplay/coursplay_fs22.
+Для получения дополнительной информации, пожалуйста, посетите наш GitHub: https://github.com/coursplay/coursplay_fs25.
 Там вы можете получить помощь или сообщить о любой проблеме, с которой вы столкнулись.
 Наконец, мы благодарим каждого переводчика и наше сообщество за сообщения об ошибках, предоставляя обратную связь и новые идеи.
 
@@ -1023,6 +1031,7 @@ HUD также показывает оставшийся уровень запо
     <text name="input_CP_DBG_CHANNEL_MENU_VISIBILITY" text="CP: Показать/Скрыть каналы отладки"/>
     <text name="input_CP_OPEN_CLOSE_VEHICLE_SETTING_DISPLAY" text="CP: Открыть mini GUI"/>
     <text name="input_CP_START_STOP" text="CP: Отправить/Остановить водителя"/>
+    <text name="input_CP_GENERATE_COURSE" text="CP: Генератор курса"/>
     <text name="input_CP_CHANGE_SELECTED_JOB" text="CP: Изменить текущую выбранную работу"/>
     <text name="input_CP_CHANGE_STARTING_POINT" text="CP: Изменить точку отправки"/>
     <text name="input_CP_CLEAR_COURSE" text="CP: Очистить текущий загруженный курс"/>
